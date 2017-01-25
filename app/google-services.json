@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "729043417737",
+    "firebase_url": "https://photo2blog-9feed.firebaseio.com",
+    "project_id": "photo2blog-9feed",
+    "storage_bucket": "photo2blog-9feed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729043417737:android:f2cf1110be69b60c",
+        "android_client_info": {
+          "package_name": "com.vrstudios.v.photo2blog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729043417737-cg5gpad0g8odj1av0n79m1u0pc6b8jip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vrstudios.v.photo2blog",
+            "certificate_hash": "1F99F1FF5D1C85BCD6DF9EC25ADFFB4878E4EB17"
+          }
+        },
+        {
+          "client_id": "729043417737-0hikir6a72v4dvt2og7kd43os9s0kr63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlezFXDcPda2iFNbz2IXGmPZxhtnCpqwE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729043417737-0hikir6a72v4dvt2og7kd43os9s0kr63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

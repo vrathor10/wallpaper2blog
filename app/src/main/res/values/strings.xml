@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Photo2blog</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2534568726881165/4233728533</string>
+    <string name="interstitial_full_screen">ca-app-pub-2534568726881165/7187194938</string>
+
+</resources>

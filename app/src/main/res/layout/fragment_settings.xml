@@ -1,0 +1,116 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vrstudios.v.photo2blog.SettingsFragment"
+    android:background="@color/colorPrimaryDark">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile Setting"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/editprofileBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT PROFILE"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ACCOUNT SETTING"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+            <TextView
+                android:id="@+id/changePasswordSettingBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHANGE PASSWORD"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoutbtn"
+        android:text="logout"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:background="@color/transparentcolor"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Support Us"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+            <TextView
+                android:id="@+id/AdmobInterstitialBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VIEW ADD"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*  support us by clicking add."
+                android:textStyle="italic"
+                android:textSize="20dp"
+                />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*  rate us in play store."
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

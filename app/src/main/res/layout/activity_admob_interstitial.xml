@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_admob_interstitial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.vrstudios.v.photo2blog.AdmobInterstitialActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Support Us"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* rate us 5 start if u like this app."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* This application is developed for colleg project submission ."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* If you like to learn how to craete simple online wallpaper gallery or application simmilar to this , then email us at vrathor10@gmail.com for the SOURCE CODE of this application."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Stay connected to us for more projects and development ."
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
